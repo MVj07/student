@@ -1,0 +1,41 @@
+#table{
+        margin: 20px;
+}
+table{
+    border: 1px solid rgba(0, 0, 0, 0.377);
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.377);
+    padding: 35px;
+}
+th, td:hover{
+    background-color: rgb(236, 236, 236);
+}
+.edit{
+    border: none;
+    cursor: pointer;
+    font-size: medium;
+    background-color: black;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+.edit:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+}
+.delete{
+    border: none;
+    cursor: pointer;
+    font-size: medium;
+    background-color: black;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+.delete:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+}
